@@ -1,10 +1,17 @@
+"use client";
+import { Box } from "@mui/material";
 import React from "react";
+import TopBannerSection from "../organism/TopBannerSection";
 
-const HomePage: React.FC = () => {
+interface HomePageProps {
+  bannerImages: string[];
+}
+
+const HomePage: React.FC<HomePageProps> = ({ bannerImages }) => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <Box sx={{ padding: 0, margin: 0 }}>
+      <TopBannerSection bannerImages={bannerImages} />
+    </Box>
   );
 };
 
