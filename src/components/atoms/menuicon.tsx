@@ -1,5 +1,5 @@
 import { Toolbar, Button, IconButton } from "@mui/material";
-import { MenuIcon } from "@mui/icons-material";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const MenuButton: React.FC = () => {
   return (
@@ -16,3 +16,5 @@ const MenuButton: React.FC = () => {
     </Toolbar>
   );
 };
+
+export default MenuButton;

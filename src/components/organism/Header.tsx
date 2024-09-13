@@ -1,6 +1,7 @@
 import React from "react";
 import Box from "@mui/material/Box";
 import Banner from "@/components/atoms/Banner";
+import MenuButton from "@/components/atoms/MenuIcon"
 
 const Header: React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const Header: React.FC = () => {
         }}
       >
         <Banner />
+       <MenuButton />
       </Box>
     </>
   );
