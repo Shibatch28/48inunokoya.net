@@ -11,6 +11,7 @@ __metadata:
   dependencies:
     "@emotion/react": "npm:11.13.3"
     "@emotion/styled": "npm:11.13.0"
+    "@mui/icons-material": "npm:6.0.2"
     "@mui/material": "npm:6.0.2"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
@@ -413,6 +414,22 @@ __metadata:
   version: 6.0.2
   resolution: "@mui/core-downloads-tracker@npm:6.0.2"
   checksum: 10c0/b83b067ab7b6fe90b1616a8ced478cb030384c0942502e63d2c5580677dcaed055a5a5178130c1c3a9b6b02f4b1a1e19ce0f2e6a754c1f5724495c6458a8efd8
+  languageName: node
+  linkType: hard
+
+"@mui/icons-material@npm:6.0.2":
+  version: 6.0.2
+  resolution: "@mui/icons-material@npm:6.0.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.25.0"
+  peerDependencies:
+    "@mui/material": ^6.0.2
+    "@types/react": ^17.0.0 || ^18.0.0 || ^19.0.0
+    react: ^17.0.0 || ^18.0.0 || ^19.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 10c0/862cae6f8cb9624ca728ffbb755f29fd937a45ab9a38f4aeea053b86747eb153279666cf62ffa0fb1f2617b824e66e5badd2f3a9133f7223b230c1c987d57de7
   languageName: node
   linkType: hard
 
