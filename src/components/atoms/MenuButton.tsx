@@ -14,6 +14,7 @@ const MenuButton: React.FC<MenuButtonProps> = ({ onClick }) => {
         color="inherit"
         aria-label="menu"
         sx={{ ml: 2 }}
+        onClick={onClick}
       >
         <MenuIcon />
       </IconButton>
