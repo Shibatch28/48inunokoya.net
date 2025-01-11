@@ -1,7 +1,11 @@
 import { Toolbar, Button, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
-const MenuButton: React.FC = () => {
+interface MenuButtonProps {
+  onClick: (event: React.MouseEvent<HTMLElement>) => void;
+}
+
+const MenuButton: React.FC<MenuButtonProps> = ({ onClick }) => {
   return (
     <Toolbar>
       <IconButton
