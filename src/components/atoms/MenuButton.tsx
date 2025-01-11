@@ -1,4 +1,4 @@
-import { Toolbar, Button, IconButton } from "@mui/material";
+import { Toolbar, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 
 interface MenuButtonProps {
